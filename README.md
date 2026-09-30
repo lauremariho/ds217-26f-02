@@ -88,6 +88,9 @@ Lowest systolic: <smallest usable reading> mmHg
 
 Read the file back and print it, the way Demo 3 does, so you can see what landed on disk.
 
+print(f"Saved report matches: {saved_text == report_text}")
+assert saved_text == report_text, "the saved report does not match the text we built"
+
 > **Checkpoint: `output/vitals_report.txt`**
 > Open the saved file in the Explorer and confirm it holds your six labelled lines.
 
