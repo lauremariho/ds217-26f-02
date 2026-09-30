@@ -2,11 +2,12 @@
 
 ## Project description
 
-TODO: This project is reading the clinic_encounters.csv file. It is producing a summary that summarizes six different variables.
+This project is reading the clinic_encounters.csv file. It is producing a summary that summarizes six different variables.
 
 ## Run
 
-TODO: Replace this line with the Python 3.13 terminal command that runs your report script.
+python3 clinic_report.py
+
 
 ## Files
 
