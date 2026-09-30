@@ -2,7 +2,7 @@
 
 ## Project description
 
-TODO: 
+TODO: This project is reading the clinic_encounters.csv file. It is producing a summary that summarizes six different variables.
 
 ## Run
 
