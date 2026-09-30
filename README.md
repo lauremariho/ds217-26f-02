@@ -2,7 +2,7 @@
 
 ## Project description
 
-This project is reading the clinic_encounters.csv file. It is producing a summary that summarizes six different variables.
+The aim of this project is to provide two .txt files with simple summary statistics. First, I must read in the messy clinic data. Then I must remove unusable rows. With the cleaned data, I will calculate a few statistics. Finaly, I save these statistical results as two text files.
 
 ## Run
 
@@ -87,9 +87,6 @@ Lowest systolic: <smallest usable reading> mmHg
 - Write each label exactly as shown, followed by a colon and then the number. Around that, the checks are relaxed: letter case and the spaces between words do not matter, the `mmHg` unit is optional (`mm Hg` is fine too), and words around the number are ignored. Extra lines in the file are ignored. What is not optional is the label wording and the colon, so `Usable encounters = 12` or `usable -> 12` does not count.
 
 Read the file back and print it, the way Demo 3 does, so you can see what landed on disk.
-
-print(f"Saved report matches: {saved_text == report_text}")
-assert saved_text == report_text, "the saved report does not match the text we built"
 
 > **Checkpoint: `output/vitals_report.txt`**
 > Open the saved file in the Explorer and confirm it holds your six labelled lines.
