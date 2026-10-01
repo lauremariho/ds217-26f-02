@@ -1,0 +1,20 @@
+Cutoff: 120 mmHg
+Reason: Since the average systolic blood pressure is closer to the minimum than the maximum, this indicates that the observed range extends farther above the mean than below it, which would be consistent with a cutoff that is too high. A lower cutoff would catch more patients with borderline readings.
+P024
+P022
+P014
+P023
+P025
+P026
+P020
+P006
+P028
+P011
+P005
+P018
+P003
+P010
+P017
+P009
+P015
+P002
