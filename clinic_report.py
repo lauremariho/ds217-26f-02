@@ -104,8 +104,11 @@ def main():
 
     print(saved_text)
 
-    print(f"Saved report matches: {saved_text == report_text}")
-    assert saved_text == report_text, "the saved report does not match the text we built"
+    print(f"Saved report matches: {saved_text == report_text_vitals}")
+    assert saved_text == report_text_vitals, "the saved report does not match the text we built"
+
+    print(f"Saved report matches: {saved_text == report_text_followup}")
+    assert saved_text == report_text_followup, "the saved report does not match the text we built"
 
 
 if __name__ == "__main__":
